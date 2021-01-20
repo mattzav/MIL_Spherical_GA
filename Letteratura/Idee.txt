@@ -1,0 +1,13 @@
+Init (centro random e raggio tale per cui tutte le istanze dei bag negativi sono classificate come negative = distanza minima - epsilon se considero negativi quelli fuori, distanza massima + epsilon se considero quelli dentro)
+Sel (roulette, binary tour, k tour)
+Cross 
+	1: meta coordinate di una, meta coordinate dell'altra e raggio pari alla media
+	2: da 1 a x coordinate di una da x a y dell'altra e da y alla fine di una
+	3: centro pari alla media delle due e raggio pari alla media
+	(considerare in tutte anche di prendere come raggio il max/min)
+Mut
+	1: scambio due coordinate
+	2: scambio tre coordinate
+	3: P(0.5) sqrt di una coordinata P(0.5) ^2 di una coordinata e del raggio anche
+	5: shift di una coordinata
+Local search (gestire il raggio se è banale farlo)
